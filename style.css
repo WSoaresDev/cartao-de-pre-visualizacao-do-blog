@@ -1,4 +1,4 @@
-@charset "UTF8";
+@charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
@@ -23,19 +23,17 @@ body {
 
 main {
     height: auto;
-    width: 200px;
+    width: 100%;
     background-color: white;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 9px 8px 0px rgb(0, 0, 0);
     
-    display: flex;
-    max-width: 1440px;
-    min-width: 375px;
+    max-width: 375px;
 }
 
 img {
-    display: flex;
+    display: block;
     margin: auto;
     border-radius: 10px;
 }
